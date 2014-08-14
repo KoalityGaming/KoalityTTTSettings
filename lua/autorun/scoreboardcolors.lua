@@ -14,6 +14,15 @@ else
 			return Color(37,232, 232)
 			--return Color(122,89,1)
 		end 
+		
+		if ply:SteamID() == "STEAM_0:1:41325142" then
+			return Color(255, 148, 8)
+		end
+		
+		if ply:SteamID() == "STEAM_0:0:42371203" then
+			return Color(250,67,171)
+		end
+
 		-- Admins 
 		if ply:IsUserGroup("admin") then
 			return Color(205,55,230)
