@@ -9,11 +9,7 @@ else
 		if ply:SteamID() == "STEAM_0:1:21842857" then
 			return Color(25,232, 109)
 		end 
-		-- Sweetsoul
-		if ply:SteamID() == "STEAM_0:1:43103023" then
-			return Color(37,232, 232)
-			--return Color(122,89,1)
-		end 
+
 		
 		if ply:SteamID() == "STEAM_0:1:41325142" then
 			return Color(255, 148, 8)
