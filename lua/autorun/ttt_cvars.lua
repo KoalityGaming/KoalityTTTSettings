@@ -19,7 +19,7 @@ CreateConVar( "ttt_idle_limit", "60", { FCVAR_SERVER_CAN_EXECUTE } )
 CreateConVar( "ttt_spec_prop_base", "1337", { FCVAR_SERVER_CAN_EXECUTE } )
 CreateConVar( "ttt_spec_prop_maxpenalty", "1337", { FCVAR_SERVER_CAN_EXECUTE } )
 CreateConVar( "ttt_spec_prop_maxbonus", "0", { FCVAR_SERVER_CAN_EXECUTE } )
-CreateConVar( "ttt_spec_prop_rechargetime", "0.01", { FCVAR_SERVER_CAN_EXECUTE } )
+CreateConVar( "ttt_spec_prop_rechargetime", "1", { FCVAR_SERVER_CAN_EXECUTE } ) --0.01
 CreateConVar( "ttt_spec_prop_force", "125", { FCVAR_SERVER_CAN_EXECUTE } )
 CreateConVar( "ttt_karma_low_ban", "1440", { FCVAR_SERVER_CAN_EXECUTE } )
 CreateConVar( "ttt_karma_low_autokick", "1", { FCVAR_SERVER_CAN_EXECUTE } )
